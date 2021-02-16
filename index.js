@@ -33,9 +33,9 @@ function sendToAirtable(currentRate){
     let now = new Date();
     let record = {time: now, rate : Number(currentRate)}
     records.push(record);
-    let status = airtable.addRecords(records)
-    
-    //status = "Error";
+    let status = airtable.addRecords(records);
+    //status = "Not OK";
+  
     // handle if status is not "OK" 
     checkStatus(status, record);
 
