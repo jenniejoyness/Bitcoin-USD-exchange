@@ -3,7 +3,7 @@ const https = require("https");
 
 const tableName = "BTC Table";
 const airtable = new MyAirtable(tableName);
-const timeoutTime = 10000
+const timeoutTime = 60000
 const currency = 'USD';
 const field = "last";
 let previousStatus = "OK";
