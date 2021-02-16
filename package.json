@@ -1,0 +1,16 @@
+{
+  "name": "btc_exchange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "develop": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "airtable": "^0.10.1",
+    "nodemon": "^2.0.7"
+  }
+}
