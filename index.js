@@ -61,10 +61,10 @@ function getRate(){
   });
 };
 
-// starts the program and resets the timer to collect the future exchange rate
+// Collects the current BTC to USD exchange rate and resets the timer to collect the future exchange rate
 function start() {
   getRate();
   setTimeout(start, timeoutTime);
 }
-
+// Starts the program
 start();
